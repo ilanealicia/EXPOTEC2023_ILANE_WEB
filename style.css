@@ -1,0 +1,94 @@
+body{
+    background-color: #f9f2ff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 25px;
+    font-size: larger;
+}
+
+header {
+    background-color: #ffffff; /* Cor de fundo do cabeçalho */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center; /* Centraliza o texto no cabeçalho */
+    margin-bottom: 50px;
+}
+
+nav {
+    margin-top: 20px; /* Espaço entre o título e os botões */
+}
+
+a:hover{
+    background-color: rgb(216, 167, 255);
+}
+
+nav a {
+    background-color: #f9f2ff;
+    border-radius: 5px;
+    color: #4b0866; /* Cor do texto dos botões */
+    text-decoration: none; /* Remove sublinhado dos links */
+    cursor: pointer;
+    padding: 10px 20px; /* Espaçamento interno dos botões */
+    margin-left: 30px; /* Espaçamento à esquerda entre os botões */
+    margin-right: 50px;
+}
+
+img{
+    max-width: 125px;
+    margin-left: 200px;
+}
+
+footer {
+    background-color: #ffffff;
+    color: #4b0866;
+    text-align: left;
+    padding-left: 20px;
+    border-radius: 20px;
+    line-height: 12px;
+    padding: 50px;
+}
+.centro{
+    display: block;
+    text-align: center;
+    font-size: x-large;
+    margin-bottom: 50px;
+}
+
+td{
+    padding: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: black;
+    font-size: 13px;
+}
+.linha{
+    background-color: rgb(216, 167, 255);
+}
+.divisor{
+    background-color: rgb(123, 96, 167);
+}
+
+.form-login {
+    width: 600px; /* Largura do quadrado */
+    height: 270px; /* Altura do quadrado */
+    color: #4b0866;
+    background-color: rgb(231, 203, 255); /* Cor de fundo do quadrado */
+    margin: 0 auto; /* Centraliza o quadrado horizontalmente */
+    padding: 20px; /* Espaçamento interno do quadrado */
+    border-radius: 20px;
+    text-align: left;
+}
+
+.form-inscricao {
+    width: 600px; /* Largura do quadrado */
+    height: 540px; /* Altura do quadrado */
+    color: #4b0866;
+    background-color: rgb(231, 203, 255); /* Cor de fundo do quadrado */
+    margin: 0 auto; /* Centraliza o quadrado horizontalmente */
+    padding: 20px; /* Espaçamento interno do quadrado */
+    border-radius: 20px;
+    text-align: left;
+}
